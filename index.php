@@ -26,46 +26,40 @@
 <div id="content">
 
     <?php
-//    $id = 1;
-//    $name = 'Iphone';
-//    $desc = 'Здесь описание для телефона Iphone';
-//    $img = '/images/goods/iphone.jpg';
-//    $price = '2000 $';
-//
-//    echo $id . '<br>';
-//    echo $name . '<br>';
-//    echo $desc . '<br>';
-//    echo $img . '<br>';
-//    echo $price . '<br>';
-
-//        $product = ['Iphone', 'Описание для Iphone', '/images/goods/iphone.jpg', '2000 $'];
-//
-//        echo $product[2];
-
-//        $product[] = 'Сегодня скидка 20%';
-
-//        $product[9] = 28;
-
-//        $product[] = 44;
-
-//        echo "<pre>";
-//        var_dump($product);
-
-        $product = [
+    $goods = [
+        [
             'id' => 1,
             'name' => 'Iphone',
             'desc' => 'Описание для Iphone',
             'img' => '/images/goods/iphone.jpg',
             'price' => '2000 $'
-        ];
+        ],
+        [
+            'id' => 2,
+            'name' => 'HTC',
+            'desc' => 'Описание для HTC',
+            'img' => '/images/goods/htc.jpg',
+            'price' => '1200 $'
+        ],
+        [
+            'id' => 3,
+            'name' => 'Samsung',
+            'desc' => 'Описание для Samsung',
+            'img' => '/images/goods/samsung.jpg',
+            'price' => '1400 $'
+        ],
+    ];
 
-        $product['count'] = 162;
+    $page = $_GET['page'];
 
-        echo "<pre>";
-        var_dump($product);
-        echo "</pre>";
-//        echo $product['name'] . '<br>';
-//        echo $product['desc'] . '<br>';
+    if (!isset($page)) {
+        echo 'здесь вместо этой надписи будет контент для главной страницы';
+    } elseif ($page == 'shop') {
+        echo 'здесь будет страница с товарами';
+    } elseif ($page == 'product') {
+        echo 'а тут у нас будет страница с открытым товаром';
+    }
+
     ?>
 
     <!--<div id="promo">
@@ -192,15 +186,15 @@
         <div id="contacts">
             <div class="contactWrap">
                 <img src="images/envelope.svg" class="contactIcon">
-                info@brandshop.ru
+                donntu.edu
             </div>
             <div class="contactWrap">
                 <img src="images/phone-call.svg" class="contactIcon">
-                8 800 555 00 00
+                +38 071 000 00 01
             </div>
             <div class="contactWrap">
                 <img src="images/placeholder.svg" class="contactIcon">
-                Москва, пр-т Ленина, д. 1 офис 304
+                Донецк, пр-т Ленина, д. 15, офис 205
             </div>
         </div>
 
