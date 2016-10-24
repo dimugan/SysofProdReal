@@ -50,14 +50,15 @@
         ],
     ];
 
-    $page = $_GET['page'];
+    foreach ($goods as $key => $good) {
+        echo 'Ключ массива: ' . $key . '<br>';
+        echo $good['id'] . '<br>';
+        echo $good['name'] . '<br>';
+        echo $good['desc'] . '<br>';
+        echo $good['img'] . '<br>';
+        echo $good['price'] . '<br>';
 
-    if (!isset($page)) {
-        echo 'здесь вместо этой надписи будет контент для главной страницы';
-    } elseif ($page == 'shop') {
-        echo 'здесь будет страница с товарами';
-    } elseif ($page == 'product') {
-        echo 'а тут у нас будет страница с открытым товаром';
+        echo '<hr>';
     }
 
     ?>
