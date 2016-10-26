@@ -26,32 +26,32 @@
 <div id="content">
 
     <?php
-    $goods = [
-        [
-            'id' => 1,
-            'name' => 'Iphone',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium',
-            'img' => '/images/goods/iphone.jpg',
-            'price' => '2000 $'
-        ],
-        [
-            'id' => 2,
-            'name' => 'HTC',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium',
-            'img' => '/images/goods/htc.jpg',
-            'price' => '1200 $'
-        ],
-        [
-            'id' => 3,
-            'name' => 'Samsung',
-            'desc' => 'Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium',
-            'img' => '/images/goods/samsung.jpg',
-            'price' => '1400 $'
-        ],
-    ];
+	 require_once("database.php");
+	 require_once("phones.php");
+	 $link = db_connect();
+    $goods = phones_all($link);
 
     $page = $_GET['page'];
 
+	
+/*	 $page = $_GET['page'];
+
+    if (!isset($page)) {
+        require('templates/main.php');
+    } elseif ($page == 'shop') {
+        require('templates/shop.php');
+    } elseif ($page == 'product') {
+        $id = $_GET['id'];
+        $good = [];
+        foreach ($goods as $product) {
+            if ($product['id'] == $id) {
+                $good = $product;
+                break;
+            }
+        }
+        require('templates/openedProduct.php');
+    }*/
+	
     if (!isset($page)) {
         require('templates/main.php');
     } elseif ($page == 'shop') {

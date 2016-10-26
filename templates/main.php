@@ -1,6 +1,6 @@
 <div id="promo">
     <h1 id="promoText">
-        Новый PhoneBrand это лучший смартфон
+        Новый PhoneBrand - это лучший смартфон!
     </h1>
 </div>
 
