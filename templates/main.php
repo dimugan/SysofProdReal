@@ -6,6 +6,31 @@
 
 <div id="mainTextWrap">
     <div id="mainText">
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc
+        <p>В Brandshop представлен большой ассортимент мобильных телефонов и 90% из них это смартфоны.
+		В целом смартфон, это телефон и компьютер, как единое целое. Притом давно уже функционал 
+		даже не слишком дорогого смартфона не уступает возможностям компьютера. Просто он меньше, 
+		вот и все отличия.</p> 
+		<p>Первый шаг выбора смартфона, это выбор классовой группы. И делений здесь предостаточно. 
+		Самые популярные классы, это: защищенные смартфоны, имиджевые, DUAL смартфоны, музыкальные, 
+		камерофоны, женские, VIP-смартфоны, бюджетные, для развлечений и м. д. Сейчас мы вкратце 
+		каждый рассмотрим и надо решить, какой класс нужен вам.</p>
+		<p>Защищенных моделей телефонов не много, но для людей с активной жизнью это идеальное решение. 
+		Смартфоны с защищенным корпусом не боятся ни грязи, ни влаги, ни дождя, ни ударов. Их можно мыть 
+		и бросать на землю, они всегда будут работать «как часы» и никогда не подведут в трудную минуту.</p>
+		<p>Смартфоны поддерживающие возможность использовать две SIM-карты сейчас 
+		очень популярны. Плюсы их понятны, можно выбрать два оператора и на каждый звонить по самым 
+		низким тарифам. Также, это возможность иметь один рабочий телефон и один домашний, которые 
+		размещены в одном корпусе. Чаще всего, в имени таких моделей значится слово DUAL, что значит «два». 
+		Но существуют модели и на три SIM-карты, возможно, именно такое устройство будет идеальным решением.</p>
+		<p>Ранее музыкальный смартфон был значимым разделом в индустрии телефонов, теперь все проще. 
+		Каждый имиджевый смартфон является музыкальным. Но бывают исключения, когда смартфон в большей части 
+		спроектирован для меломанов. Тут и акустика высшего класса, и уникальный эквалайзер для идеальной доводки 
+		звучания, и удобные кнопки для управления воспроизведения любимых треков. Но опять таки напомним, 
+		современных дорогой смартфон все это также имеет.</p>
+		<p>Камерофон - это смартфон, который фотографирует и снимает видео не хуже хорошего цифрового фотоаппарата. 
+		Понятие довольно таки новое, но понемногу входит в обиход. И любители фотографировать все и всюду могут 
+		выбрать именно такой фото-смартфон.</p>
+		<br>
+		Вам осстается лишь выбрать свой девайс из этого большинства.
     </div>
 </div>

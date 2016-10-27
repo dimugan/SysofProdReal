@@ -5,34 +5,34 @@
     <h1 id="openedProduct-name">
         <?php echo $good['name']; ?>
     </h1>
-	
-	<div class="shopUnitPrice">
-                Операционная система: <?php echo $good['os']; ?>
+		
+			<div class="shopUnitPrice">
+                <dt>Операционная система:</dt> <dd><?php echo $good['os']; ?></dd>
             </div>
 			<div class="shopUnitPrice">
-               Камера:			  <?php echo $good['Camera']; ?>
+               <dt>Камера:</dt>		  <dd><?php echo $good['Camera']; ?></dd>
             </div>
 			<div class="shopUnitPrice">
-               Число SIM-карт:  <?php echo $good['sim']; ?>
+               <dt>Число SIM-карт:</dt>  <dd><?php echo $good['sim']; ?></dd>
             </div>
 			
 					
 			
 			<div class="shopUnitPrice">
-               Процессор: <?php echo $good['proc']; ?>
+               <dt>Процессор:</dt> <dd><?php echo $good['proc']; ?></dd>
             </div>
 			<div class="shopUnitPrice">
-               Размер:			  <?php echo $good['size']; ?>
+               <dt>Размер:</dt>			  <dd><?php echo $good['size']; ?></dd>
             </div>
 			<div class="shopUnitPrice">
-               Экран:  <?php echo $good['display']; ?>
+               <dt>Экран:</dt>  <dd><?php echo $good['display']; ?></dd>
             </div>
 			<div class="shopUnitPrice">
-               Аккумулятор:  <?php echo $good['battery']; ?>
+               <dt>Аккумулятор:</dt>  <dd><?php echo $good['battery']; ?></dd>
             </div>
             
 			<div class="shopUnitPrice">
-                Цена: <?php echo $good['price']; ?> р
+                <dt>Цена:</dt> <?php echo $good['price']; ?> р
             </div>
 			
     <div id="openedProduct-desc">

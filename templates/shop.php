@@ -11,7 +11,7 @@
                 <?php echo $good['name']; ?>
             </div>
             <div class="shopUnitShortDesc">
-                Операционная система: <?php echo $good['os']; ?>
+                ОC: <?php echo $good['os']; ?>
             </div>
 			<div class="shopUnitShortDesc">
                Камера:			  <?php echo $good['Camera']; ?>
