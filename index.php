@@ -5,6 +5,13 @@
     <link href="styles/site.css" rel="stylesheet">
     <script src="scripts/jquery.js"></script>
     <script src="scripts/site.js"></script>
+	
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/pgwslider.min.js"></script>
+	<link rel="stylesheet" href="css/pgwslider.min.css">
+	<link rel="stylesheet" href="css/demo.css">
+	
     <title>Онлайн магазин</title>
 </head>
 <body>
@@ -32,7 +39,6 @@
     $goods = phones_all($link);
 
     $page = $_GET['page'];
-
 	
 /*	 $page = $_GET['page'];
 

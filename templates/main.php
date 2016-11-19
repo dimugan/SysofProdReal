@@ -1,7 +1,20 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="js/pgwslider.min.js"></script>
+	<link rel="stylesheet" href="css/pgwslider.min.css">
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+
+
 <div id="promo">
-    <h1 id="promoText">
+    <h1 id="promoText" align="center">
         Новый PhoneBrand - это лучший смартфон!
-    </h1>
+    </h1>	
+	 <?php include 'index.html'; ?> 
 </div>
 
 <div id="mainTextWrap">
@@ -34,3 +47,5 @@
 		Вам осстается лишь выбрать свой девайс из этого большинства.
     </div>
 </div>
+
+</html>

@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+	<script src="js/pgwslider.min.js"></script>
+	<link rel="stylesheet" href="css/pgwslider.min.css">
+	<link rel="stylesheet" href="css/demo.css">
+</head>
+<body>
+
+<div class="top-panel-static">
+	<div class="top-panel-inner">
+		<a class="top-panel-back-url">
+			<div class="top-panel-logo" title="Назад к статье"></div>
+		</a>
+	</div>
+</div>
+
+<div class="main">
+	<ul class="pgwSlider">
+		<!--<li><img src="images/slide-1.jpg" alt="Самые автономные смартфоны 2016 года" data-description="Подзаголовок дополнительного описания"></li>-->
+		<li><img src="images/slide-1.jpg" alt="Самые автономные смартфоны 2016 года" data-description=""></li>
+		<li><img src="images/slide-2.jpg" alt="Сравнение Elephone S3 и Ulefone Future" data-large-src="images/slide-2.jpg"></li>
+		<li>
+			<img src="images/slide-3.jpg" alt="">
+			<span>Google обновила сервис PlayMusic</span>
+		</li>
+		<li>
+			<a href="http://google.com" target="_blank">
+				<!--<img src="images/slide-4.jpg" data-description="Этот слайд кликабельный, со ссылкой." alt="">-->
+				<img src="images/slide-4.jpg" data-description="" alt="">
+				<span>Анонс Huawei Mate 9 Pro</span>
+			</a>
+		</li>
+		<li>
+			<img src="images/slide-5.jpg" alt="">
+			<span>Более компактная версия Xiaomi Mi MIX </span>
+		</li>
+		<li>
+			<img src="images/slide-6.jpg" alt="">
+			<span>Apple готовит большое обновление iPad</span>
+		</li>
+	</ul>
+</div>
+
+<script>
+	$(document).ready(function() {
+		$('.pgwSlider').pgwSlider({
+			autoSlide: false,
+			displayControls: true
+		});
+	});
+</script>
+</body>
+</html>
