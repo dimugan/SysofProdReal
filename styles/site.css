@@ -337,3 +337,32 @@ dt {
 
 /* ---------------- КОНЕЦ стилей для страниы с открытым товаром -------------------------- */
 
+/* ---------------- НАЧАЛО стилей для страницы с открытой новостью ----------------------- */
+#openedNews-img {
+    float: left;
+    width: 30%;
+    margin-right: 3%;
+}
+
+#openedNews-img img {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid rgba(225, 225, 225, 0.7);
+}
+
+#openedNews-content {
+    float: left;
+    width: 67%;
+	text-align: justify;
+}
+
+#openedNews-name {
+    font-family: Exo, sans-serif;
+    font-size: 2em;
+    margin-top: 0;
+}
+
+#openedNews-desc {
+    margin-top: 20px;
+}
+/* ---------------- КОНЕЦ стилей для страниы с открытой новостью -------------------------- */

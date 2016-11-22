@@ -15,9 +15,6 @@
 			<div class="shopUnitPrice">
                <dt>Число SIM-карт:</dt>  <dd><?php echo $good['sim']; ?></dd>
             </div>
-			
-					
-			
 			<div class="shopUnitPrice">
                <dt>Процессор:</dt> <dd><?php echo $good['proc']; ?></dd>
             </div>
@@ -30,7 +27,6 @@
 			<div class="shopUnitPrice">
                <dt>Аккумулятор:</dt>  <dd><?php echo $good['battery']; ?></dd>
             </div>
-            
 			<div class="shopUnitPrice">
                 <dt>Цена:</dt> <?php echo $good['price']; ?> р
             </div>
