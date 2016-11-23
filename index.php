@@ -20,7 +20,7 @@
         <div id="logo"></div>
         <div id="companyName">Brand</div>
         <div id="navWrap">
-            <a href="/">
+            <a href="index.php">
                 Главная
             </a>
             <a href="index.php?page=shop">
@@ -65,12 +65,15 @@
     } elseif ($page == 'product') {
         $id = $_GET['id'];
         $good = [];
+		$tmp=0;
         foreach ($goods as $product) {
             if ($product['id'] == $id) {
                 $good = $product;
+				$tmp=1;
                 break;
             }
         }
+		if ($tmp!=1)  require('templates/main.php');
         require('templates/openedProduct.php');
     }
 ?>
