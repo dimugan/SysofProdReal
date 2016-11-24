@@ -40,24 +40,6 @@
 
     $page = $_GET['page'];
 	
-/*	 $page = $_GET['page'];
-
-    if (!isset($page)) {
-        require('templates/main.php');
-    } elseif ($page == 'shop') {
-        require('templates/shop.php');
-    } elseif ($page == 'product') {
-        $id = $_GET['id'];
-        $good = [];
-        foreach ($goods as $product) {
-            if ($product['id'] == $id) {
-                $good = $product;
-                break;
-            }
-        }
-        require('templates/openedProduct.php');
-    }*/
-	
     if (!isset($page)) {
         require('templates/main.php');
     } elseif ($page == 'shop') {
